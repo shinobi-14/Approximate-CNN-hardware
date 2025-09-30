@@ -1,5 +1,5 @@
 # Approximate-CNN-hardware
-This project explores Approximate Computing techniques of a Convolutional Neural Network (CNNs) for Image Processing.
+This project explores Approximate Computing techniques of a Convolutional Neural Network (CNN) for Image Processing.
 
 It focuses on designing and analysing approximate techniques to reduce computational complexity, area, and power consumption while maintaining acceptable accuracy for CNN inference, where both accurate and approximate convolutional blocks were designed using Verilog HDL. 
 
