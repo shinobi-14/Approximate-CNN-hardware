@@ -18,7 +18,7 @@
 1. The data width is set to 8 bits (DATA_W = 8) and the kernel size is 3 (K_SIZE = 3).
 2. At this snapshot, the input pixel is 24 (0x18) and the kernel value is ~1.0203.
 3. The accurate output is 0x0654 (1620 in decimal), which looks correct based on the convolution calculation.
-4. The approximate output is 0x0002 (2 in decimal), which is much smaller compared to the accurate result. This shows the error introduced by the aggressive-approximate computation (trading precision and accuracy for power/area).
+4. The approximate output is 0x0002 (2 in decimal), which is much smaller compared to the accurate result. This shows the error introduced by the aggressive-approximate computation (trading precision and accuracy for timing/area).
 5. I noticed that the valid signals (valid_acc, valid_approx) are still low even though the outputs are already computed. I tried taking snapshots at different times, but every time the outputs were still not flagged as valid. I suppose there might be a small issue in the way I’m driving the start/valid handshake in the testbench
 6. The err signal is undefined (x) in this snapshot. That likely means I haven’t reset or initialized it properly in my design or testbench.
 
