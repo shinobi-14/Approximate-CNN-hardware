@@ -15,7 +15,7 @@ This sub-repo contains constraints files, tickle file and synthesis results for 
 ### Approximate-Design 
 1. Area Report: The synthesized approx_conv module is composed of 221 logic cells and occupies a total cell area of 2391.047 units. This provides a quantitative measure of the approximate design's physical size compared to the accurate design.
 
-2. Power Report: The total power consumption is approximately 2.014e-04 W. The approximate design has lower leakage and switching power, but leakage is the dominant power component in the approximate model, accounting for nearly 80% of its total consumption.
+2. Power Report: The total power consumption is approximately 2.014e-04 W. The approximate design has lower leakage and switching power, but internal is the dominant power component in the approximate model, accounting for nearly 80% of its total consumption.
 
 3. Timing Report: The design meets its timing requirements with a positive slack of 4311 ps. The approximate design has better timing performance than the accurate design, as indicated by its larger positive slack. This successfully demonstrates the intended performance-for-accuracy trade-off.
 
