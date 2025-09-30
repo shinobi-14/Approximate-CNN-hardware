@@ -1,6 +1,6 @@
 I performed a Logic Equivalence Check (LEC) to verify that the gate-level netlist of the convolutional block synthesized with Cadence Genus is functionally identical to the RTL Verilog code, checking that no logical errors were introduced during synthesis.
 
-The Simulation snapshots for both the Accurate and Approximate designs are provided above in their respective folders, and the snapshot description for your reference is given below.
+The Simulation snapshots for both the Accurate and Approximate designs are provided above in their respective folders, and the snapshot description for the reference is given below.
 
 ```
 Description
