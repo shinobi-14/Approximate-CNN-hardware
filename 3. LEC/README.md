@@ -5,7 +5,7 @@ The Simulation snapshots for both the Accurate and Approximate designs are provi
 ```
 Description
 1. compare_golden_and_revised
-- It tells  whether the Snthesized netlist (Revised) is functionally equivalent to the RTL description (Golden), checking that both designs have the same number of mapped inputs, outputs, and flip-flops, and no such discrepancies.
+- It tells  whether the synthesized netlist (Revised) is functionally equivalent to the RTL description (Golden), checking that both designs have the same number of mapped inputs, outputs, and flip-flops, and no such discrepancies.
 
 2. HDL_rule_manager
 - Checks the functional mismatches between RTL and the synthesized netlist; a few warnings might exist (multiple non-blocking assignments, bit truncation risk, and blackboxed cells), which can be ignored.
